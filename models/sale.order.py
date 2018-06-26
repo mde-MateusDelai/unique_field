@@ -1,6 +1,6 @@
 from openerp import api, models
 
-class ResPartner(models.Model):
+class SaleOrder(models.Model):
     _inherit = "sale.order"
 
     _sql_constraints = [
