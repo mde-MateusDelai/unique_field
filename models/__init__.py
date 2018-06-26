@@ -1,1 +1,1 @@
-import sale.order
+import sale_order
