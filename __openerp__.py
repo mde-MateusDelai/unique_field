@@ -5,12 +5,13 @@
 {
     'name': 'Unique PO per Customer',
     'version': '9.0.1.0.0',
-    'category': 'Hidden',
+    'category': 'Denker',
     'author': 'Mateus Delai',
     'website': "",
     'license': 'AGPL-3',
-    'depends': ['base', ],
+    'depends': ['sale'],
     'data': [
+        'sale_order.xml',
     ],
     'installable': True,
     'auto_install': False
