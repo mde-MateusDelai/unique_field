@@ -7,5 +7,5 @@ class sale_order(models.Model):
 	_inherit = ['sale.order']
 
 _sql_constraints = [
-        ('code_company_uniq', 'unique (client_order_ref)', 'The code of the account must be unique per company !')
+        ('code_company_uniq', 'unique (x_ship_to_name)', 'The code of the account must be unique per company !')
     ]
