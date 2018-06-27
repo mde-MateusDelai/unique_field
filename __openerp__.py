@@ -4,7 +4,7 @@
 
 {
     'name': 'Unique PO per Customer a',
-    'version': '9.0.1.0.0',
+    'version': '9.0.1.0.1',
     'category': 'Denker',
     'author': 'Mateus Delai',
     'website': "",
