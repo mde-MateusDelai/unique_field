@@ -1,5 +1,5 @@
 {
-    'name': "New Module",
+    'name': "Unique PO per Customer V2",
     'version': '1.1',
     'depends': ['base'],
     'author': "Author Name",
@@ -7,9 +7,6 @@
     'description': """
     Description text
     """,
-  'depends': ['sale'],
-    'data': [
-    ],
     'installable': True,
     'auto_install': False
 }
